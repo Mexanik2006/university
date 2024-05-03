@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+@import url('https://fonts.hoogleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+:root{
+  --primary: #065dfb;
+  --light: #fff;
+  --warning: #f06804;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+  background-color: #EAF2F8 ;
+}
+
+a{
+  text-decoration: none!important;
+  
+}
+
+.hero{
+  width: 100%;
+}
+
+.hero .carousel-item img{
+  height: 950px;
+  width: 100%;
+  /* background-size: cover!impotant; */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .carousel-item:before{
+  content: '';
+  background-color: #040f28;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .7;
+}
+.hero .carousel-container{
+  display: flex;
+  justify-content: center;
+  align-items: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.hero .carousel-content-container{
+  text-align: center;
+  color: #fff;
+  margin-top: 400px;
+}
+
+.hero .carousel-content-container h2{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+}
+.hero .carousel-content-container p{
+  width: 70%;
+  text-transform: capitalize;
+  font-size: 14px;
+  margin: 0 auto 30px auto;
+}
+
+
+.buttons .button1{
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 12px 30px;
+  line-height: 1px;
+  margin: 10px 10px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+
+@media(max-width:768px){
+  .hero .carousel-content-container h2{
+    font-size: 35px;
+  }
+  .herov.carousel-content-container p{
+    font-size: 13px;
+  }
+  .buttons .button1{
+    font-size: 13px;
+    padding: 9px 30px;
+  }
+  /* nav{
+    background-color: #222;
+    color: green;
+  }  */
+}
+
+.about{
+  position: relative;
+  
+}
+.about span{
+  display: block;
+  margin-bottom: 5px;
+  color: #065dfb;
+  font-size: 17px;
+}
+
+.about h2{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.about p{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 14px;
+  text-align: justify
+}
+
+.buttons .button3{
+   font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 10px 30px;
+  line-height: 1px;
+  margin: 10px 10px;
+  color: #fff;
+  background-color: #065dfb;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  
+  
+}
+
+
+
+
+
+
+
+  
+.choose .choose-item{
+  padding: 10px;
+  margin: 0px 0px 50px ; 
+  background: #9BA8AB;
+  box-shadow: 0 0 5px #4A5C6A, 0 0 5px #4A5C6A, 0 0 15px #4A5C6A, 0 0 50px #4A5C6A;
+  position: relative;
+  
+   
+}
+
+
+.choose .choose-item .buttons .button3 ion-icon{
+  position: relative;
+  
+}
+.choose .choose-item .buttons .button3 a{
+  position: relative;
+}
+
+.choose .choose-item h3{
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+
+  
+}
+
+
+
+.choose .choose-item p{
+  font-size: 14px;
+  text-align: justify;
+  position: relative;
+}
+
+
+

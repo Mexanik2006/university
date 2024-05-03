@@ -1,0 +1,21 @@
+body{
+  background-color: aliceblue;
+}
+
+
+
+.contaniner #artext{
+    background: linear-gradient(to right, #0930ad, #04c0f9,  #2cf005, #d40000); 
+    background-clip: text;
+    /*display: inline;
+    /* margin-left: 800px;  */
+    color: transparent; 
+    animation: animated 5s linear infinite;
+    font-size: 150px;
+    text-align: center; 
+   /* border: 2px solid black;*/
+
+  } 
+    @keyframes animated{
+    to {background-position-x: 400px ;}
+  } 
